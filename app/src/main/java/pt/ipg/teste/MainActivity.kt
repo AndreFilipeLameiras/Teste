@@ -10,13 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val buttonEnviar = findViewById<Button>(R.id.buttonEnviar)
-        buttonEnviar.setOnClickListener { enviaMensagem() }
+
     }
 
-    private fun enviaMensagem(){
 
-        val editTextMensagem = findViewById<EditText>(R.id.editTextMensagem)
-        val mensagem = editTextMensagem.text.toString()
-    }
 }
