@@ -63,13 +63,18 @@ class MainActivity : AppCompatActivity() {
 
 
         val intent = Intent(this, MostrarDados::class.java)
-        intent.putExtra("Nome", nome)
-        intent.putExtra("Email", email)
-        intent.putExtra("Teledone", telefone)
-
-
+        intent.putExtra(EXTRA_NOME, nome)
+        intent.putExtra(EXTRA_EMAIL, email)
+        intent.putExtra(EXTRA_NOME, nome)
+        intent.putExtra(EXTRA_NOME, nome)
 
         startActivity(intent)
     }
 
+    companion object{
+        const val EXTRA_NOME = "nome"
+        const val EXTRA_EMAIL = "email"
+        const val EXTRA_TELE = "telefone"
+        const val EXTRA_DATA_NASCIMENTO = "data de nascimento"
+    }
 }

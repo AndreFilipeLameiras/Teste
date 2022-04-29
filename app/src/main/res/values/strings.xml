@@ -10,8 +10,8 @@
     <string name="email_invalido">Email invalido</string>
     <string name="numero_obrigatorio">Numero de telefone obrigatorio</string>
     <string name="telefone_invalido">Telefone invalido</string>
-    <string name="nome">Nome</string>
-    <string name="email">Email</string>
-    <string name="telefone">Telefone</string>
-    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="Nome">Nome</string>
+    <string name="Email">Email</string>
+    <string name="Telefone">Telefone</string>
+    <string name="Data_de_nascimento">Data de Nascimento</string>
 </resources>
