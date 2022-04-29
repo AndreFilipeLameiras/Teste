@@ -65,8 +65,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, MostrarDados::class.java)
         intent.putExtra(EXTRA_NOME, nome)
         intent.putExtra(EXTRA_EMAIL, email)
-        intent.putExtra(EXTRA_NOME, nome)
-        intent.putExtra(EXTRA_NOME, nome)
+        intent.putExtra(EXTRA_TELE, telefone )
+        intent.putExtra(EXTRA_DATA_NASCIMENTO, dataNascimento)
 
         startActivity(intent)
     }
