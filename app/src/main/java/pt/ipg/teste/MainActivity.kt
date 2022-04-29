@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val editTextTelefone = findViewById<EditText>(R.id.editTextTelefone)
-        
+
     }
 
 }
