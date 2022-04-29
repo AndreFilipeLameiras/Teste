@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
+import android.widget.CalendarView
 import android.widget.EditText
 
 class MainActivity : AppCompatActivity() {
@@ -55,6 +56,10 @@ class MainActivity : AppCompatActivity() {
             editTextTelefone.requestFocus()
             return
         }
+
+        val calendarViewDataNascimento = findViewById<CalendarView>(R.id.calendarViewDataNascimento)
+        val dataNascimento = calendarViewDataNascimento.date
+
     }
 
 }
