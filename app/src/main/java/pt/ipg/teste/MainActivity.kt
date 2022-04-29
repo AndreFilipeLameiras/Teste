@@ -1,5 +1,6 @@
 package pt.ipg.teste
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
@@ -60,6 +61,15 @@ class MainActivity : AppCompatActivity() {
         val calendarViewDataNascimento = findViewById<CalendarView>(R.id.calendarViewDataNascimento)
         val dataNascimento = calendarViewDataNascimento.date
 
+
+        val intent = Intent(this, MostrarDados::class.java)
+        intent.putExtra("Nome", nome)
+        intent.putExtra("Email", email)
+        intent.putExtra("Teledone", telefone)
+
+
+
+        startActivity(intent)
     }
 
 }
